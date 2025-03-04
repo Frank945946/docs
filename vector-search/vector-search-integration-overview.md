@@ -25,8 +25,8 @@ TiDB provides official support for the following AI frameworks, enabling you to 
 
 | AI frameworks | Tutorial                                                                                          |
 |---------------|---------------------------------------------------------------------------------------------------|
-| Langchain     | [Integrate Vector Search with LangChain](/vector-search-integrate-with-langchain.md)   |
-| LlamaIndex    | [Integrate Vector Search with LlamaIndex](/vector-search-integrate-with-llamaindex.md) |
+| Langchain     | [Integrate Vector Search with LangChain](/vector-search/vector-search-integrate-with-langchain.md)   |
+| LlamaIndex    | [Integrate Vector Search with LlamaIndex](/vector-search/vector-search-integrate-with-llamaindex.md) |
 
 Moreover, you can also use TiDB for various purposes, such as document storage and knowledge graph storage for AI applications.
 
@@ -40,7 +40,7 @@ The following table lists some mainstream embedding service providers and the co
 
 | Embedding service providers | Tutorial                                                                                                            |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------|
-| Jina AI                     | [Integrate Vector Search with Jina AI Embeddings API](/vector-search-integrate-with-jinaai-embedding.md) |
+| Jina AI                     | [Integrate Vector Search with Jina AI Embeddings API](/vector-search/vector-search-integrate-with-jinaai-embedding.md) |
 
 ## Object Relational Mapping (ORM) libraries
 
@@ -48,32 +48,9 @@ You can integrate TiDB Vector Search with your ORM library to interact with the 
 
 The following table lists the supported ORM libraries and the corresponding integration tutorials:
 
-<table>
-  <tr>
-    <th>Language</th>
-    <th>ORM/Client</th>
-    <th>How to install</th>
-    <th>Tutorial</th>
-  </tr>
-  <tr>
-    <td rowspan="4">Python</td>
-    <td>TiDB Vector Client</td>
-    <td><code>pip install tidb-vector[client]</code></td>
-    <td><a href="/tidb/dev/vector-search-get-started-using-python">Get Started with Vector Search Using Python</a></td>
-  </tr>
-  <tr>
-    <td>SQLAlchemy</td>
-    <td><code>pip install tidb-vector</code></td>
-    <td><a href="/tidb/dev/vector-search-integrate-with-sqlalchemy">Integrate TiDB Vector Search with SQLAlchemy</a></td>
-  </tr>
-  <tr>
-    <td>peewee</td>
-    <td><code>pip install tidb-vector</code></td>
-    <td><a href="/tidb/dev/vector-search-integrate-with-peewee">Integrate TiDB Vector Search with peewee</a></td>
-  </tr>
-  <tr>
-    <td>Django</td>
-    <td><code>pip install django-tidb[vector]</code></td>
-    <td><a href="/tidb/dev/vector-search-integrate-with-django-orm">Integrate TiDB Vector Search with Django</a></td>
-  </tr>
-</table>
+| Language | ORM/Client         | How to install                    | Tutorial |
+|----------|--------------------|-----------------------------------|----------|
+| Python   | TiDB Vector Client | `pip install tidb-vector[client]` | [Get Started with Vector Search Using Python](/vector-search/vector-search-get-started-using-python.md) |
+| Python   | SQLAlchemy         | `pip install tidb-vector`         | [Integrate TiDB Vector Search with SQLAlchemy](/vector-search/vector-search-integrate-with-sqlalchemy.md)
+| Python   | peewee             | `pip install tidb-vector`         | [Integrate TiDB Vector Search with peewee](/vector-search/vector-search-integrate-with-peewee.md) |
+| Python   | Django             | `pip install django-tidb[vector]` | [Integrate TiDB Vector Search with Django](/vector-search/vector-search-integrate-with-django-orm.md)
